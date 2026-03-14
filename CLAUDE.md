@@ -111,24 +111,29 @@
 
 ```
 /
-├── CLAUDE.md                        # この設定ファイル
+├── CLAUDE.md                         # Claude Code用設定（詳細版）
+├── .cursorrules                      # Cursor用設定（パネル参照設定）
 ├── business-plan/
-│   ├── 00_executive-summary.md      # エグゼクティブサマリー
-│   ├── 01_business-overview.md      # 事業概要
-│   ├── 02_market-analysis.md        # 市場分析
-│   ├── 03_business-model.md         # ビジネスモデル
-│   ├── 04_marketing-strategy.md     # マーケティング戦略
-│   ├── 05_operations-plan.md        # 運営計画
-│   ├── 06_financial-plan.md         # 財務計画
-│   ├── 07_risk-management.md        # リスク管理
-│   └── 08_milestones.md             # マイルストーン・実行計画
+│   ├── 00_executive-summary.md       # エグゼクティブサマリー
+│   ├── 01_business-overview.md       # 事業概要
+│   ├── 02_market-analysis.md         # 市場分析
+│   ├── 03_business-model.md          # ビジネスモデル
+│   ├── 04_marketing-strategy.md      # マーケティング戦略
+│   ├── 05_operations-plan.md         # 運営計画
+│   ├── 06_financial-plan.md          # 財務計画
+│   ├── 07_risk-management.md         # リスク管理
+│   └── 08_milestones.md              # マイルストーン・実行計画
 ├── board-reviews/
-│   └── (経営会議・取締役会レビュー記録)
+│   ├── index.md                      # 全レビュー目次・横断検索用
+│   └── YYYY/MM/                      # 年月別レビュー記録
+│       ├── YYYY-MM-DD_会議名_議題.md  # レビュー本体
+│       └── ..._actions.md            # アクションアイテム追跡
 ├── feedback/
 │   └── (各ラウンドのフィードバック記録)
 └── templates/
-    ├── business-plan-template.md     # 事業計画書テンプレート
-    └── board-review-template.md     # 経営会議レビューテンプレート
+    ├── business-plan-template.md      # 事業計画書テンプレート
+    ├── board-review-template.md       # 経営会議レビューテンプレート
+    └── actions-template.md            # アクションアイテムテンプレート
 ```
 
 ---
